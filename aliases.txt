@@ -1,0 +1,9 @@
+        s = status
+        ci = commit
+        pu = push
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        aa = !git add --all && git status
+        co = checkout
+        cob = checkout -b
+        back = reset --soft head~1
+        b = branch
