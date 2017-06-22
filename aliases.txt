@@ -1,7 +1,7 @@
         s = status
         ci = commit
         pu = push
-        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        hist = log --graph --pretty=format:\"%C(auto) %h %ai | %Cgreen %G? %C(auto) %s%d [%an]\"
         aa = !git add --all && git status
         co = checkout
         cob = checkout -b
