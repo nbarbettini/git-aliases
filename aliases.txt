@@ -9,3 +9,4 @@
         b = branch
         rl = remote -v
         ra = remote add
+        un = reset HEAD
