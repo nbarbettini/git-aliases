@@ -1,5 +1,6 @@
         s = status
         ci = commit
+	cim = commit -m
         pu = push
         hist = log -10 --graph --pretty=format:\"%C(auto) %h %ai | %Cgreen %G? %C(auto) %s%d [%an]\"
         aa = !git add --all && git status
