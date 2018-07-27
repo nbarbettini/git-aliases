@@ -1,13 +1,14 @@
-        s = status
-        ci = commit
-	cim = commit -m
-        pu = push
-        hist = log -10 --graph --pretty=format:\"%C(auto) %h %ai | %Cgreen %G? %C(auto) %s%d [%an]\"
-        aa = !git add --all && git status
-        co = checkout
-        cob = checkout -b
-        back = reset --soft head~1
-        b = branch
-        rl = remote -v
-        ra = remote add
-        un = reset HEAD
+[alias]
+  s = status
+  ci = commit
+  cim = commit -m
+  pu = push
+  hist = log -10 --graph --pretty=format:\"%C(auto) %h %ai | %Cgreen %G? %C(auto) %s%d [%an]\"
+  aa = !git add --all && git status
+  co = checkout
+  cob = checkout -b
+  back = reset --soft head~1
+  b = branch
+  rl = remote -v
+  ra = remote add
+  un = reset HEAD
