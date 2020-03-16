@@ -12,3 +12,6 @@
   rl = remote -v
   ra = remote add
   un = reset HEAD
+  ffmaster = fetch origin master:master
+  rmaster = rebase master
+  rimaster = rebase -i master
